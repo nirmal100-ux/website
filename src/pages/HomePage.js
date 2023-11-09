@@ -37,7 +37,7 @@ const HomePage = () => {
           <h1 className="text-4xl font-bold py-6 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
-        <div className="flex space-x-7 m-5 py-9 ">
+        <div className=" grid grid-flow-col py-20 ">
           <div className="">
             <Card className="mt-6 w-96">
               <CardBody>
@@ -72,10 +72,10 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-4 px-10 space-y-5 ">
+          <div className="grid grid-cols-3 py-10 px-20 gap-10">
 
-            <div className="py-5">
-              <Card className="h-[400px]  w-[300px] py-2">
+            <div className=" ">
+              <Card className="h-[400px]  w-[350px] ">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/Domain-hosting-removebg-preview.png" alt="" />
                 </div>
@@ -89,7 +89,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className="h-[400px]  w-[300px] py-2">
+              <Card className="h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/web-dev%20icon.png" alt="" />
                 </div>
@@ -100,7 +100,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className="h-[400px]  w-[300px]">
+              <Card className="h-[400px]  w-[350px]">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] py-2 " src="https://www.imagineinfosys.com/images/news-portal-icon-removebg-preview.png" alt="" />
                 </div>
@@ -111,7 +111,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -123,7 +123,7 @@ const HomePage = () => {
 
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -134,7 +134,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -145,7 +145,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -156,7 +156,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -167,7 +167,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -178,7 +178,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -188,7 +188,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -199,7 +199,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -210,7 +210,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -221,7 +221,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -232,7 +232,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -243,7 +243,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[400px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[350px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] bg-white" src="https://th.bing.com/th/id/OIP.PBwB-d1EjIQYEzmr1NJiIgHaHa?pid=ImgDet&w=202&h=202&c=7&dpr=1.5" alt="" />
                 </div>
@@ -252,13 +252,13 @@ const HomePage = () => {
                 <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
             </div>
-
-
-
-            {/* PRICING */}
-
-
           </div>
+
+
+          {/* PRICING */}
+
+
+
           <div className=" py-14">
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-indigo-900 ">PRICING</h1>
