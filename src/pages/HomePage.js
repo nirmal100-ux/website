@@ -21,17 +21,7 @@ const HomePage = () => {
             </h1>
           </div>
 
-          <div className=" text-white  py-3">
 
-            <h1 className="text-2xl">
-              we are committed to provide services</h1>
-            <h1 className="text-2xl"> with Quality| Technology | Innovation |
-            </h1>
-            <h1 className="text-2xl">Customer Satisfaction</h1>
-
-
-
-          </div>
         </div>
 
         <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
@@ -75,54 +65,194 @@ const HomePage = () => {
 
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
-          <div className="text-center py-20  bg-blue-gray-400">
-            <h1 className="text-4xl font-bold text-indigo-900 ">SERVICE</h1>
+          <div className="text-center py-20 bg-blue-gray-500">
+            <h1 className="text-4xl font-bold text-black ">Our Service</h1>
+            <div className="py-2">
+              <p className="text-lg font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
+            </div>
           </div>
 
-          <div className=" flex gap-7 m-5 px-10 py-16 ">
+          <div className="grid grid-cols-4 px-10 space-y-5 ">
 
-            <div>
-              <Card className="h-[320px]  w-[300px] py-2">
+            <div className="py-5">
+              <Card className="h-[400px]  w-[300px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/Domain-hosting-removebg-preview.png" alt="" />
                 </div>
 
-                <h1 className="text-center font-bold text-2xl text-blue-700">Domain Hosting</h1>
-                <h1 className="text-center text-2xl "> We offer domain registration service, where you can register domains with us. We take care of all aspects of the domain such as booking, renewal, transfer etc.
+                <h1 className="text-center font-bold text-2xl text-blue-700">Apps Development</h1>
+                <h1 className="text-center text-2xl py-3 "> We deliver native and cross-platform iOS and Android mobile solutions for business and consumer applications to bring your project to market.
                 </h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
 
             </div>
 
             <div>
-              <Card className="h-[320px]  w-[300px] py-2">
+              <Card className="h-[400px]  w-[300px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/web-dev%20icon.png" alt="" />
                 </div>
                 <h1 className="text-center font-bold text-2xl text-blue-700">Web Development</h1>
-                <h1 className="text-center text-2xl "> We carry more than just good coding skills. Our experience makes us stand out from other web development.</h1>
+                <h1 className="text-center text-2xl py-3 "> We carry more than just good coding skills. Our experience makes us stand out from other web development.
+                </h1>
+                <h1 className="text-center py-12 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
             </div>
             <div>
-              <Card className="h-[320px]  w-[300px]">
+              <Card className="h-[400px]  w-[300px]">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] py-2 " src="https://www.imagineinfosys.com/images/news-portal-icon-removebg-preview.png" alt="" />
                 </div>
-                <h1 className="text-center font-bold text-2xl text-blue-700">News Portal Design</h1>
-                <h1 className="text-center text-2xl ">Build the product you need on time with an experienced team that uses a clear and effective design.</h1>
-
+                <h1 className="text-center font-bold text-2xl text-blue-700">Software Development</h1>
+                <h1 className="text-center text-2xl py-3 ">We offer an efficient and effective software development service that manages the software assets with our expert software developers.</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
             </div>
 
             <div>
-              <Card className=" h-[320px]  w-[300px] py-2">
+              <Card className=" h-[400px]  w-[300px] py-2">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
-                <h1 className="text-center font-bold text-2xl text-blue-700">Dedicated Team</h1>
-                <h1 className="text-center text-2xl ">Our customers succeeded by leveraging Intellectsoft’s process of building, motivating.</h1>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Alpha Independent Consultant</h1>
+                <h1 className="text-center text-2xl ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
             </div>
+
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Digital Marketing</h1>
+                <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Social Branding</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Social Branding</h1>
+                <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Alibaba Cloud Servers</h1>
+                <h1 className="text-center text-2xl  py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Alpha Independent Consultant</h1>
+                <h1 className="text-center text-2xl ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Web Hosting</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Domains Registration</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Cloud Shared Hosting</h1>
+                <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Reseller Hosting</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Google One Setup</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">SSL Certificate</h1>
+                <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
+            <div>
+              <Card className=" h-[400px]  w-[300px] py-2">
+                <div className="flex items-center justify-center">
+                  <img className="h-[60px] w-[60px] bg-white" src="https://th.bing.com/th/id/OIP.PBwB-d1EjIQYEzmr1NJiIgHaHa?pid=ImgDet&w=202&h=202&c=7&dpr=1.5" alt="" />
+                </div>
+                <h1 className="text-center font-bold text-2xl text-blue-700">SEO</h1>
+                <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
+                <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              </Card>
+            </div>
+
 
 
             {/* PRICING */}
@@ -133,7 +263,7 @@ const HomePage = () => {
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-indigo-900 ">PRICING</h1>
             </div>
-            <div className="flex  space-x-20 px-20 py-20">
+            <div className="grid grid-cols-3 px-20 py-10">
               <div>
                 <Card className="h-[450px]  w-[350px] bg-blue-gray-50">
                   <div className="py-2">
@@ -231,7 +361,7 @@ const HomePage = () => {
             <h1 className="text-base font-bold">Discover our latest blog, packed with insights, trends, and <br /> expert perspectives on the cutting-edge of technology.</h1>
           </div>
 
-          <div className="flex px-14">
+          <div className=" grid grid-cols-3 px-10">
             <div className="px-9 py-5">
               <Card className="h-[450px]  w-[350px] ">
                 <div>
@@ -275,16 +405,68 @@ const HomePage = () => {
 
         </div>
 
+        {/* Our Clients */}
+
+
+
+        <div className="bg-white px-10 py-10">
+          <div className="py-5">
+            <h1 className="text-center font-bold text-4xl">Our Clients</h1>
+          </div>
+          <div className="grid grid-cols-3">
+            <div className="py-5">
+              <div>
+                <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/12.png" alt="" />
+              </div>
+              <div>
+                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/13.png" alt="" />
+              </div>
+
+              <div>
+                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/14.png" alt="" />
+              </div>
+            </div>
+
+            <div className="px-5">
+              <div>
+                <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/15.png" alt="" />
+              </div>
+
+              <div>
+                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/21.png" alt="" />
+              </div>
+              <div>
+                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/23.png" alt="" />
+              </div>
+
+            </div>
+
+            <div className="px-10 ">
+              <div>
+                <div>
+                  <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/16.png" alt="" />
+                </div>
+                <div>
+                  <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/19.png" alt="" />
+                </div>
+                <div>
+                  <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/20.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
         {/* meet our team */}
 
         <div className="bg-blue-gray-800 py-14  ">
           <div className="py-9 text-center text-white ">
-            <h1 className="text-4xl">Meat Our Team</h1>
+            <h1 className="text-4xl">Meet Our Team</h1>
           </div>
           <div className="text-white text-center ">
             <p className="text-lg px-20">Introducing our exceptional teams, driven by passion and expertise, ready to collaborate and <br /> bring your vision to life.</p>
           </div>
-          <div className="flex px-16 gap-9 py-10">
+          <div className=" grid grid-cols-4 px-8 py-5">
             <div className="px-5 py-5">
               <Card className="h-[300px]  w-[250px] bg-blue-gray-500" >
 
