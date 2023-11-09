@@ -37,7 +37,7 @@ const HomePage = () => {
           <h1 className="text-4xl font-bold py-6 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
-        <div className=" grid grid-flow-col py-9 px-8 ">
+        <div className=" grid  grid-cols-3 py-9 px-8 ">
           <div className="">
             <Card className="mt-6 w-96">
               <CardBody>
@@ -65,14 +65,14 @@ const HomePage = () => {
 
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
-          <div className="text-center py-20 bg-blue-gray-500">
+          <div className="text-center py-10 bg-blue-gray-500">
             <h1 className="text-4xl font-bold text-black ">Our Service</h1>
             <div className="py-2">
               <p className="text-lg font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
             </div>
           </div>
 
-          <div className="grid grid-cols-3 py-10 px-20 gap-10">
+          <div className="grid grid-cols-3 py-10 px-20 gap-20">
 
             <div className=" ">
               <Card className="h-[400px]  w-[350px] ">
@@ -115,7 +115,7 @@ const HomePage = () => {
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
-                <h1 className="text-center font-bold text-2xl text-blue-700">Alpha Independent Consultant</h1>
+                <h1 className="text-center font-bold text-2xl text-blue-700">Imagine independent</h1>
                 <h1 className="text-center text-2xl  py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
                 <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
               </Card>
@@ -250,7 +250,7 @@ const HomePage = () => {
 
 
 
-          <div className=" py-14">
+          <div className=" py-8">
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-indigo-900 ">PRICING</h1>
             </div>
@@ -344,7 +344,7 @@ const HomePage = () => {
 
 
         {/* Our Recent Blog */}
-        <div className="py-14">
+        <div className="py-10">
           <div className="text-center ">
             <h1 className="text-4xl font-bold">Our Recent Blog</h1>
           </div>
@@ -400,51 +400,51 @@ const HomePage = () => {
 
 
 
-        <div className="bg-white px-10 py-10">
-          <div className="py-5">
+        <div className="bg-white px-20 py-10">
+          <div className="py-10">
             <h1 className="text-center font-bold text-4xl">Our Clients</h1>
           </div>
-          <div className="grid grid-cols-3">
-            <div className="py-5">
+          <div className="grid grid-cols-3 px-10 ">
+            <div className="py-4 space-y-5">
               <div>
-                <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/12.png" alt="" />
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
               </div>
               <div>
-                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/13.png" alt="" />
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
               </div>
 
               <div>
-                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/14.png" alt="" />
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
               </div>
             </div>
 
-            <div className="px-5">
+            <div className=" space-y-14 py-4">
               <div>
-                <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/15.png" alt="" />
+                <img className="h-[300px] w-[300px]" src="	https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370819741_264227149807543_3509917525085752210_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PKxMnbpLr5gAX8p1sSq&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDma4PAWB6nzHpXYiMVhDZHnze-Amcw78Ivt02AMdZCtw&oe=655104B6" alt="" />
               </div>
 
               <div>
-                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/21.png" alt="" />
+                <img className="h-[250px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370956152_264226916474233_2435806347277475914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4tLaB3v0lMkAX-NYO7J&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC6z891hvDs1VN0WbKm38pRWYWUpgDmqXb0Ij0LwFWshg&oe=6551BB0B" alt="" />
               </div>
               <div>
-                <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/23.png" alt="" />
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/371777333_264227256474199_3442841441102270307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s_zg0hnnmCkAX8jAn9a&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAYne4jfb4VD3n74ElKN_Ups9Q4DpiaFiTpt-b2fBt63w&oe=6551BD02" alt="" />
               </div>
 
             </div>
 
-            <div className="px-10 ">
+
+            <div className="space-y-8 py-4 ">
               <div>
-                <div>
-                  <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/16.png" alt="" />
-                </div>
-                <div>
-                  <img className="h-[300px] w-[300px]" src="	https://reflexitsolution.com/wp-content/uploads/2023/01/19.png" alt="" />
-                </div>
-                <div>
-                  <img className="h-[300px] w-[300px]" src="https://reflexitsolution.com/wp-content/uploads/2023/01/20.png" alt="" />
-                </div>
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370825276_264227176474207_6961604995066564230_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D5OzM7NjXXwAX8zQCvJ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAX29WS1yNgBGXIY31GAP7nmLciUUYLBsTdUEBSsLyetw&oe=65515827" alt="" />
+              </div>
+              <div>
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370869183_264227133140878_2489990857417577589_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N-iftg18xHsAX9WC3L4&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCCbzEeyVzJqunqLDiSx58Fp1tjfhunqm7rnN9huafG4Q&oe=6551283B	" alt="" />
+              </div>
+              <div className=" ">
+                <img className="h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
               </div>
             </div>
+
 
           </div>
         </div>
