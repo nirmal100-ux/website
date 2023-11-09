@@ -9,31 +9,32 @@ import {
 const HomePage = () => {
   return (
     <div>
-      <div className="flex py-5 bg-light-blue-800 ">
-        <div className="px-36 py-40 ">
-          <h1 className="font-bold  text-5xl text-white">
-            Better Solutions For Your Business
-          </h1>
-          <div className="py-2">
-            <h1 className="font-medium text-lg text-blue-100">
-              We are team of talented designers
-              making websites with Imagine Infotech
+      <div style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
+        <div className="flex py-10">
+          <div className="px-36 py-40 ">
+            <h1 className="font-bold  text-5xl text-white">
+              Better Solutions For Your Business
             </h1>
+            <div className="py-2">
+              <h1 className="font-medium text-lg text-blue-100">
+                We are team of talented designers
+                making websites with Imagine Infotech
+              </h1>
+            </div>
+
+
           </div>
+
+          <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
+
+
+
 
 
         </div>
-
-        <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
-
-
-
-
-
-
       </div>
       <div className=" bg-blue-gray-200">
-        <div className="bg-blue-gray-300 py-8 text-center">
+        <div className="bg-blue-gray-300 py- text-center">
           <h1 className="text-4xl font-bold py-6 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
@@ -520,11 +521,70 @@ const HomePage = () => {
               </Card>
             </div>
           </div>
+        </div>
+
+
+        {/* footer */}
+
+        <div className="bg-gray-900 py-20">
+          <div className="grid grid-cols-4 px-5  py-10">
+
+
+
+            <div>
+
+              <h1 className="py-1 px-3 text-2xl text-white">Imagine Infotech</h1>
+              <h1 className="text-white text-justify">Imagine Infotech is the only IT training <br /> institute in Kathmandu, Nepal <br /> offering paid internships after the <br /> course completion. Carrying more <br /> than 5 years of experience in training <br /> with various courses covering <br /> everything from programming to <br />designing and marketing, our <br /> professional instructor of highly <br /> educated educators is committed to <br /> assisting you in succeeding.</h1>
+            </div>
+
+
+            <div className="px-20  text-white space-y-3 text-sm">
+              <h1 className="text-2xl font-bold ">Company</h1>
+              <h1 className="font-bold">About Us</h1>
+              <h1 className="font-bold "> Our Service</h1>
+              <h1 className="font-bold">Contact Us</h1>
+            </div>
+
+            <div className="text-white space-y-3 text-sm ">
+
+              <h1 className="px-25 text-2xl font-bold">Contact Us</h1>
+
+              <h1>IMAGINE INFOTECH</h1>
+              <h1>Kathmandu PutaliSadak</h1>
+              <h1>Nepalgunj-11' Banke</h1>Nepalgunj-11' Banke Nepal
+
+              <p>Phone: +977 9768451222</p>
+              <p>Email:imagineinfotech4@gmail.com</p>
+            </div>
+
+            <div className="text-white ">
+              <h1 className="px-16 text-2xl font-bold">Important Links</h1>
+              <div className="flex space-x-5 px-20 py-5">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-viber"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
 
 
 
 
         </div>
+
+
+
+
+
+
+
 
 
 
