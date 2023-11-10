@@ -34,12 +34,12 @@ const HomePage = () => {
         </div>
       </div>
       <div className=" bg-blue-gray-200">
-        <div className="bg-blue-gray-300 py- text-center">
-          <h1 className="text-4xl font-bold py-6 bg-blue-10 text-cyan-900">About Us</h1>
+        <div className="bg-blue-gray-300 py-10 text-center">
+          <h1 className="text-4xl font-bold py-3 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
         <div className=" grid  grid-cols-3 py-9 px-8 ">
-          <div className="">
+          <div className="col-span-1">
             <Card className="mt-6 w-96">
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -53,7 +53,7 @@ const HomePage = () => {
             </Card>
           </div>
 
-          <div>
+          <div className="col-span-2">
             <Card className="mt-6 h-[450px] w-[850px]">
 
               <h1 className="text-black space-x-5 py-8 text-justify px-5 ">
@@ -66,7 +66,7 @@ const HomePage = () => {
 
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
-          <div className="text-center py-10 bg-blue-gray-500">
+          <div className="text-center py-6 bg-blue-gray-500">
             <h1 className="text-4xl font-bold text-black ">Our Service</h1>
             <div className="py-2">
               <p className="text-lg font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
@@ -253,7 +253,7 @@ const HomePage = () => {
 
           <div className=" py-8">
             <div className="text-center">
-              <h1 className="font-bold text-4xl  text-indigo-900 ">PRICING</h1>
+              <h1 className="font-bold text-4xl  text-black">PRICING</h1>
             </div>
             <div className="grid grid-cols-3 px-20 py-20 gap-5">
               <div>
@@ -526,13 +526,10 @@ const HomePage = () => {
 
         {/* footer */}
 
-        <div className="bg-gray-900 py-20">
-          <div className="grid grid-cols-4 px-5  py-10">
-
-
+        <div className="bg-gray-900 py-10">
+          <div className="grid grid-cols-5 px-5  py-10">
 
             <div>
-
               <h1 className="py-1 px-3 text-2xl text-white">Imagine Infotech</h1>
               <h1 className="text-white text-justify">Imagine Infotech is the only IT training <br /> institute in Kathmandu, Nepal <br /> offering paid internships after the <br /> course completion. Carrying more <br /> than 5 years of experience in training <br /> with various courses covering <br /> everything from programming to <br />designing and marketing, our <br /> professional instructor of highly <br /> educated educators is committed to <br /> assisting you in succeeding.</h1>
             </div>
@@ -558,8 +555,8 @@ const HomePage = () => {
             </div>
 
             <div className="text-white ">
-              <h1 className="px-16 text-2xl font-bold">Important Links</h1>
-              <div className="flex space-x-5 px-20 py-5">
+              <h1 className=" text-2xl font-bold">Important Links</h1>
+              <div className="flex space-x-5  py-5">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-tiktok"></i>
@@ -567,7 +564,23 @@ const HomePage = () => {
                 <i class="fa-brands fa-whatsapp"></i>
               </div>
             </div>
-
+            <div >
+              <h1 className="text-center text-2xl  font-bold text-white">We Accept</h1>
+              <div className="flex  gap-4 py-3 ">
+                <div className="">
+                  <img className="h-[50px] w-[60px] " src="https://th.bing.com/th/id/OIP.wPj2u0L9A6vbH9af1DwPhgHaD4?pid=ImgDet&rs=1" alt="" />
+                </div>
+                <div>
+                  <img className="h-[50px] w-[60px] " src="https://th.bing.com/th/id/OIP.1tj_vA3gLSXBJ1exP5VkFAHaFk?pid=ImgDet&rs=1" alt="" />
+                </div>
+                <div>
+                  <img className="h-[50px] w-[60px] " src="https://lh3.googleusercontent.com/daBK0EXWm2fMFeupwWSefARuzuvookgy6wDy0dJyHSYrn88jtyDbN2r_KLpB_7F07Rc" alt="" />
+                </div>
+                <div>
+                  <img className="h-[50px] w-[60px] " src="https://th.bing.com/th/id/R.ab32ab77428180fd8e2f89af55909d11?rik=rOONsXzuqHJ1TA&riu=http%3a%2f%2fwww.cultureartgroup.com%2fimages%2fpayment%2f1.png&ehk=uGSpmXy91FCyFQxTEIaVZfiHWU3FPswOsmE6bszlv4Y%3d&risl=&pid=ImgRaw&r=0" alt="" />
+                </div>
+              </div>
+            </div>
 
 
 
