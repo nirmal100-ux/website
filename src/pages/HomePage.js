@@ -54,7 +54,7 @@ const HomePage = () => {
           </div>
 
           <div className="col-span-2">
-            <Card className="mt-6 h-[450px] w-[850px]">
+            <Card className="mt-6 h-[450px] w-[800px]">
 
               <h1 className="text-black space-x-5 py-8 text-justify px-5 ">
                 When it comes to website development, we understand that every business is unique and has its own set of requirements. Therefore, we take a customized approach to website development that is tailored to meet our clients' specific needs. Our team works closely with clients to understand their business, their goals, and their target audience, ensuring that we deliver a website that is not only visually appealing but also functional and user-friendly. At Imagine infotech , we also offer reliable and affordable hosting services to ensure that our clients’ websites are always up and running. Our hosting plans are designed to meet the needs of businesses of all sizes, from small startups to large enterprises. We use the latest technologies and employ stringent security measures to ensure that our clients’ websites are always secure and protected. In addition to website development and hosting, we also offer domain registration services to help businesses establish their online presence. We can help clients register their domain name and manage their domain records, ensuring that their website is easily accessible to their target audience. In conclusion, at imagine infotech, we are passionate about helping businesses succeed online. Whether you need a new website, reliable hosting, or domain registration services, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about our services and how we can help your business grow.
@@ -540,6 +540,8 @@ const HomePage = () => {
               <h1 className="font-bold">About Us</h1>
               <h1 className="font-bold "> Our Service</h1>
               <h1 className="font-bold">Contact Us</h1>
+              <h1 className="font-bold">Online admisson </h1>
+              <h1 className="font-bold">Course</h1>
             </div>
 
             <div className="text-white space-y-3 text-sm ">

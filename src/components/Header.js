@@ -6,7 +6,7 @@ const Header = () => {
         <div className="  flex gap-20 text-xl font-bold ">
           <h1>About</h1>
           <h1>Service</h1>
-          <h1>online admisson </h1>
+          <h1>Online admisson </h1>
           <h1>Course</h1>
           <h1>Contact</h1>
         </div>
