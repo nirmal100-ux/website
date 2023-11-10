@@ -38,7 +38,7 @@ const HomePage = () => {
           <h1 className="text-4xl font-bold py-3 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
-        <div className=" grid  grid-cols-3 py-9 px-8 ">
+        <div className=" grid  grid-cols-3 py-5 px-8 ">
           <div className="col-span-1">
             <Card className="mt-6 w-96">
               <CardBody>
@@ -255,7 +255,7 @@ const HomePage = () => {
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-black">PRICING</h1>
             </div>
-            <div className="grid grid-cols-3 px-20 py-20 gap-5">
+            <div className="grid grid-cols-3 px-20 py-16 gap-5">
               <div>
                 <Card className="h-[450px]  w-[350px] bg-blue-gray-50">
                   <div className="py-2">
