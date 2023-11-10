@@ -73,7 +73,7 @@ const HomePage = () => {
         <div className="grid grid-cols-3 py-10 px-20 msm:px-3 gap-20  msm:grid-cols-1 mmd:grid-cols-2">
 
           <div className=" ">
-            <Card className="h-[350px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
+            <Card className="h-[350px]  w-[350px] transform hover:scale-105 transition-transform duration-300 ">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/Domain-hosting-removebg-preview.png" alt="" />
               </div>
@@ -87,7 +87,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className="h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className="h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/web-dev%20icon.png" alt="" />
               </div>
@@ -98,7 +98,7 @@ const HomePage = () => {
             </Card>
           </div>
           <div>
-            <Card className="h-[350px]  w-[350px] transform hover:scale-110 transition-transform duration-300">
+            <Card className="h-[350px]  w-[350px] transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] py-2 " src="https://www.imagineinfosys.com/images/news-portal-icon-removebg-preview.png" alt="" />
               </div>
@@ -109,7 +109,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -121,7 +121,7 @@ const HomePage = () => {
 
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -132,7 +132,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -143,7 +143,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -154,7 +154,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -165,7 +165,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -176,7 +176,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -186,7 +186,7 @@ const HomePage = () => {
             </Card>
           </div>
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -197,7 +197,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -208,7 +208,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -219,7 +219,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -230,7 +230,7 @@ const HomePage = () => {
           </div>
 
           <div>
-            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
+            <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-105 transition-transform duration-300">
               <div className="flex items-center justify-center">
                 <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
               </div>
@@ -253,9 +253,9 @@ const HomePage = () => {
           <div className="text-center">
             <h1 className="font-bold text-4xl  text-green-900">PRICING</h1>
           </div>
-          <div className="grid grid-cols-3  sm:px-20 py-16 gap-5 msm:grid-cols-1 mmd:grid-cols-2 msm:px-16 msm:gap-10">
+          <div className="grid grid-cols-3  sm:px-20 py-16 gap-5 msm:grid-cols-1 mmd:grid-cols-2 msm:px-10 msm:gap-10">
             <div className="">
-              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[300px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[200px] bg-blue-gray-50 transform hover:scale-105 transition-transform duration-300">
                 <div className="py-2">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl text-blue-400"  >BASIC PLAN</h1>
@@ -281,7 +281,7 @@ const HomePage = () => {
             </div>
 
             <div className="">
-              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[285px]  bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+              <Card className="sm:h-[400px]  sm:w-[350px]   bg-blue-gray-50 transform hover:scale-105 transition-transform duration-300">
                 <div className="py-2">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl  text-blue-400"  >STANDARD PLAN</h1>
@@ -306,7 +306,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[300px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[200px] bg-blue-gray-50 transform hover:scale-105 transition-transform duration-300">
                 <div className="py-2  ">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl text-blue-400"  >PREMIUM PLAN</h1>
@@ -354,7 +354,7 @@ const HomePage = () => {
 
         <div className=" grid grid-cols-3 sm:px-20 py-10  msm:grid-cols-1 mmd:grid-cols-2 gap-5 msm:px-3 msm:gap-10  ">
           <div className="msm:w-[400px]">
-            <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
+            <Card className="h-[400px]  w-[350px] transform hover:scale-105 transition-transform duration-300 ">
               <div>
                 <img src="https://alpharic.com/jufatchi/2023/07/digital-product-design.webp" alt="" />
               </div>
@@ -367,7 +367,7 @@ const HomePage = () => {
           </div>
 
           < div className="">
-            <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
+            <Card className="h-[400px]  w-[350px] transform hover:scale-105 transition-transform duration-300 ">
               <div>
                 <img src="https://alpharic.com/jufatchi/2023/07/cloud-and-devops.webp" alt="" />
               </div>
@@ -380,7 +380,7 @@ const HomePage = () => {
           </div>
 
           <div className="">
-            <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300">
+            <Card className="h-[400px]  w-[350px] transform hover:scale-105 transition-transform duration-300">
               <div>
                 <img src="	https://alpharic.com/jufatchi/2023/07/software-development.webp" alt="" />
               </div>
@@ -407,41 +407,41 @@ const HomePage = () => {
         <div className="grid grid-cols-3  sm:px-20 msm:grid-cols-1    mmd:grid-cols-2 gap-10 ">
 
           <div className="">
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[350px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[350px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
           </div>
           <div>
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
-          </div>
-
-          <div>
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
-          </div>
-
-
-
-          <div>
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="	https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370819741_264227149807543_3509917525085752210_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PKxMnbpLr5gAX8p1sSq&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDma4PAWB6nzHpXYiMVhDZHnze-Amcw78Ivt02AMdZCtw&oe=655104B6" alt="" />
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
           </div>
 
           <div>
-            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370956152_264226916474233_2435806347277475914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4tLaB3v0lMkAX-NYO7J&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC6z891hvDs1VN0WbKm38pRWYWUpgDmqXb0Ij0LwFWshg&oe=6551BB0B" alt="" />
-          </div>
-          <div>
-            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/371777333_264227256474199_3442841441102270307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s_zg0hnnmCkAX8jAn9a&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAYne4jfb4VD3n74ElKN_Ups9Q4DpiaFiTpt-b2fBt63w&oe=6551BD02" alt="" />
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
           </div>
 
 
 
-
+          <div>
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="	https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370819741_264227149807543_3509917525085752210_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PKxMnbpLr5gAX8p1sSq&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDma4PAWB6nzHpXYiMVhDZHnze-Amcw78Ivt02AMdZCtw&oe=655104B6" alt="" />
+          </div>
 
           <div>
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370825276_264227176474207_6961604995066564230_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D5OzM7NjXXwAX8zQCvJ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAX29WS1yNgBGXIY31GAP7nmLciUUYLBsTdUEBSsLyetw&oe=65515827" alt="" />
+            <img className="transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370956152_264226916474233_2435806347277475914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4tLaB3v0lMkAX-NYO7J&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC6z891hvDs1VN0WbKm38pRWYWUpgDmqXb0Ij0LwFWshg&oe=6551BB0B" alt="" />
           </div>
           <div>
-            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370869183_264227133140878_2489990857417577589_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N-iftg18xHsAX9WC3L4&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCCbzEeyVzJqunqLDiSx58Fp1tjfhunqm7rnN9huafG4Q&oe=6551283B	" alt="" />
+            <img className="transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/371777333_264227256474199_3442841441102270307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s_zg0hnnmCkAX8jAn9a&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAYne4jfb4VD3n74ElKN_Ups9Q4DpiaFiTpt-b2fBt63w&oe=6551BD02" alt="" />
+          </div>
+
+
+
+
+
+          <div>
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370825276_264227176474207_6961604995066564230_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D5OzM7NjXXwAX8zQCvJ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAX29WS1yNgBGXIY31GAP7nmLciUUYLBsTdUEBSsLyetw&oe=65515827" alt="" />
+          </div>
+          <div>
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370869183_264227133140878_2489990857417577589_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N-iftg18xHsAX9WC3L4&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCCbzEeyVzJqunqLDiSx58Fp1tjfhunqm7rnN9huafG4Q&oe=6551283B	" alt="" />
           </div>
           <div className=" ">
-            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
+            <img className="transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
           </div>
 
 
@@ -558,27 +558,27 @@ const HomePage = () => {
           <div className="text-white ">
             <h1 className=" text-2xl font-bold">IMPORTANT LINKS</h1>
             <div className="flex space-x-5  sm:py-5">
-              <i className="fa-brands fa-facebook  transform hover:scale-110 transition-transform duration-300 "></i>
-              <i class="fa-brands fa-instagram  transform hover:scale-110 transition-transform duration-300"></i>
-              <i class="fa-brands fa-tiktok  transform hover:scale-110 transition-transform duration-300"></i>
+              <i className="fa-brands fa-facebook  transform hover:scale-105 transition-transform duration-300 "></i>
+              <i class="fa-brands fa-instagram  transform hover:scale-105 transition-transform duration-300"></i>
+              <i class="fa-brands fa-tiktok  transform hover:scale-105 transition-transform duration-300"></i>
               <i class="fa-brands fa-viber  transform hover:scale-110 transition-transform duration-300"></i>
-              <i class="fa-brands fa-whatsapp  transform hover:scale-110 transition-transform duration-300"></i>
+              <i class="fa-brands fa-whatsapp  transform hover:scale-105 transition-transform duration-300"></i>
             </div>
           </div>
           <div >
             <h1 className="text-center text-2xl  font-bold text-white">WE ACCEPT</h1>
             <div className="flex  gap-4 py-3 ">
               <div className="">
-                <img className="h-[50px] w-[60px]  transform hover:scale-110 transition-transform duration-300" src="https://th.bing.com/th/id/OIP.wPj2u0L9A6vbH9af1DwPhgHaD4?pid=ImgDet&rs=1" alt="" />
+                <img className="h-[50px] w-[60px]  transform hover:scale-105 transition-transform duration-300" src="https://th.bing.com/th/id/OIP.wPj2u0L9A6vbH9af1DwPhgHaD4?pid=ImgDet&rs=1" alt="" />
               </div>
               <div>
-                <img className="h-[50px] w-[60px] transform hover:scale-110 transition-transform duration-300 " src="https://th.bing.com/th/id/OIP.1tj_vA3gLSXBJ1exP5VkFAHaFk?pid=ImgDet&rs=1" alt="" />
+                <img className="h-[50px] w-[60px] transform hover:scale-105 transition-transform duration-300 " src="https://th.bing.com/th/id/OIP.1tj_vA3gLSXBJ1exP5VkFAHaFk?pid=ImgDet&rs=1" alt="" />
               </div>
               <div>
-                <img className="h-[50px] w-[60px] transform hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/daBK0EXWm2fMFeupwWSefARuzuvookgy6wDy0dJyHSYrn88jtyDbN2r_KLpB_7F07Rc" alt="" />
+                <img className="h-[50px] w-[60px] transform hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/daBK0EXWm2fMFeupwWSefARuzuvookgy6wDy0dJyHSYrn88jtyDbN2r_KLpB_7F07Rc" alt="" />
               </div>
               <div>
-                <img className="h-[50px] w-[60px] transform hover:scale-110 transition-transform duration-300" src="https://th.bing.com/th/id/R.ab32ab77428180fd8e2f89af55909d11?rik=rOONsXzuqHJ1TA&riu=http%3a%2f%2fwww.cultureartgroup.com%2fimages%2fpayment%2f1.png&ehk=uGSpmXy91FCyFQxTEIaVZfiHWU3FPswOsmE6bszlv4Y%3d&risl=&pid=ImgRaw&r=0" alt="" />
+                <img className="h-[50px] w-[60px] transform hover:scale-105 transition-transform duration-300" src="https://th.bing.com/th/id/R.ab32ab77428180fd8e2f89af55909d11?rik=rOONsXzuqHJ1TA&riu=http%3a%2f%2fwww.cultureartgroup.com%2fimages%2fpayment%2f1.png&ehk=uGSpmXy91FCyFQxTEIaVZfiHWU3FPswOsmE6bszlv4Y%3d&risl=&pid=ImgRaw&r=0" alt="" />
               </div>
             </div>
           </div>
