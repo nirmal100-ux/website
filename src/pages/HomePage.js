@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="msm:grid-cols-1 mmd:grid-cols-2" style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
-        <div className=" sm:flex sm:py-10 msm:py-14">
+        <div className=" sm:flex sm:py-10 msm:py-20">
           <div className=" sm:px-36 msm:px-5 sm:py-40 msm:py-5 ">
             <h1 className="font-bold  sm:text-5xl text-white msm:text-3xl">
               Better Solutions For Your Business
