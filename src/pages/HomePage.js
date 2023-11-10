@@ -257,7 +257,7 @@ const HomePage = () => {
             </div>
             <div className="grid grid-cols-3 px-20 py-16 gap-5">
               <div className="">
-                <Card className="h-[450px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+                <Card className="h-[400px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                   <div className="py-2">
                     <div className="text-center">
                       <h1 className="font-bold text-2xl text-blue-400"  >BASIC PLAN</h1>
@@ -275,14 +275,14 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="py-10 px-20">
+                  <div className="py-4 px-20">
                     <button className="bg-gray-700 hover:bg-deep-orange-800 text-black h-[50px] w-40  rounded-full">Order Now</button>
                   </div>
 
                 </Card>
               </div>
               <div>
-                <Card className="h-[450px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+                <Card className="h-[400px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                   <div className="py-2">
                     <div className="text-center">
                       <h1 className="font-bold text-2xl  text-blue-400"  >STANDARD PLAN</h1>
@@ -300,14 +300,14 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="py-10 px-20">
+                  <div className="py-4 px-20">
                     <button className="bg-gray-700 hover:bg-deep-orange-800 text-black h-[50px] w-40  rounded-full">Order Now</button>
                   </div>
 
                 </Card>
               </div>
               <div>
-                <Card className="h-[450px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+                <Card className="h-[400px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                   <div className="py-2  ">
                     <div className="text-center">
                       <h1 className="font-bold text-2xl text-blue-400"  >PREMIUM PLAN</h1>
@@ -325,7 +325,7 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="py-10 px-20">
+                  <div className="py-4 px-20">
                     <button className="bg-gray-700 text-black h-[50px] w-40  rounded-full hover:bg-deep-orange-800"> Order Now</button>
                   </div>
 
@@ -355,7 +355,7 @@ const HomePage = () => {
 
           <div className=" grid grid-cols-3 px-10 ">
             <div className="px-9 py-5 ">
-              <Card className="h-[450px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
+              <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
                 <div>
                   <img src="https://alpharic.com/jufatchi/2023/07/digital-product-design.webp" alt="" />
                 </div>
@@ -368,7 +368,7 @@ const HomePage = () => {
             </div>
 
             < div className="px-9 py-5">
-              <Card className="h-[450px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
+              <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
                 <div>
                   <img src="https://alpharic.com/jufatchi/2023/07/cloud-and-devops.webp" alt="" />
                 </div>
@@ -381,13 +381,13 @@ const HomePage = () => {
             </div>
 
             <div className="px-9 py-5">
-              <Card className="h-[450px]  w-[350px] transform hover:scale-110 transition-transform duration-300">
+              <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300">
                 <div>
                   <img src="	https://alpharic.com/jufatchi/2023/07/software-development.webp" alt="" />
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-2xl font-bold text-indigo-900 px-2">How Software Development Can Transform Your Business</h1>
+                  <h1 className="text-2xl font-bold text-indigo-900 ">How Software Development Can Transform Your Business</h1>
                   <p className="text-justify text-sm px-10 py-3">Digital product design has become an essential aspect of business success in the technology industry. In today’s competitive market, companies need to create user-centric products that not only meet the</p>
                 </div>
               </Card>
