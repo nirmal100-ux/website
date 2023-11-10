@@ -253,9 +253,9 @@ const HomePage = () => {
           <div className="text-center">
             <h1 className="font-bold text-4xl  text-green-900">PRICING</h1>
           </div>
-          <div className="grid grid-cols-3  sm:px-20 py-16 gap-5 msm:grid-cols-1 mmd:grid-cols-2 msm:px-3 msm:gap-10">
+          <div className="grid grid-cols-3  sm:px-20 py-16 gap-5 msm:grid-cols-1 mmd:grid-cols-2 msm:px-16 msm:gap-10">
             <div className="">
-              <Card className="h-[400px]  w-[350px]  bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[300px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                 <div className="py-2">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl text-blue-400"  >BASIC PLAN</h1>
@@ -279,8 +279,9 @@ const HomePage = () => {
 
               </Card>
             </div>
-            <div>
-              <Card className="h-[400px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+
+            <div className="">
+              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[285px]  bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                 <div className="py-2">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl  text-blue-400"  >STANDARD PLAN</h1>
@@ -305,7 +306,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className="h-[400px]  w-[350px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
+              <Card className="sm:h-[400px]  sm:w-[350px] msm:w-[300px] bg-blue-gray-50 transform hover:scale-110 transition-transform duration-300">
                 <div className="py-2  ">
                   <div className="text-center">
                     <h1 className="font-bold text-2xl text-blue-400"  >PREMIUM PLAN</h1>
