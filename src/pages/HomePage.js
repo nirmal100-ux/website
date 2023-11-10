@@ -34,7 +34,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className=" bg-blue-gray-200">
-        <div className="bg-blue-gray-300 py-10 text-center">
+        <div className="bg-blue-gray-300 py-5 text-center">
           <h1 className="text-4xl font-bold py-3 bg-blue-10 text-cyan-900">About Us</h1>
         </div>
 
@@ -66,9 +66,9 @@ const HomePage = () => {
 
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
-          <div className="text-center py-10 bg-blue-gray-500">
+          <div className="text-center py-14">
             <h1 className="text-4xl font-bold text-black ">Our Service</h1>
-            <div className="py-2">
+            <div className="">
               <p className="text-sm font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
             </div>
           </div>
@@ -251,7 +251,7 @@ const HomePage = () => {
 
 
 
-          <div className=" py-10">
+          <div className=" py-14">
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-black">PRICING</h1>
             </div>
@@ -345,7 +345,7 @@ const HomePage = () => {
 
 
         {/* Our Recent Blog */}
-        <div className="py-5">
+        <div className="py-14">
           <div className="text-center ">
             <h1 className="text-4xl font-bold">Our Recent Blog</h1>
           </div>
