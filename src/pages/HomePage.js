@@ -10,9 +10,9 @@ const HomePage = () => {
   return (
     <div>
       <div className="msm:grid-cols-1 mmd:grid-cols-2" style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
-        <div className="flex py-10">
-          <div className=" sm:px-36 msm:px-5 py-40 ">
-            <h1 className="font-bold  sm:text-5xl text-white s">
+        <div className=" sm:flex sm:py-10">
+          <div className=" sm:px-36 msm:px-5 sm:py-40 msm:py-5 ">
+            <h1 className="font-bold  sm:text-5xl text-white msm:text-3xl">
               Better Solutions For Your Business
             </h1>
             <div className="py-2">
@@ -24,8 +24,8 @@ const HomePage = () => {
 
 
           </div>
-          <div className="msm:w-[800px] msm:h-[300px]">
-            <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
+          <div className="">
+            <img className="sm:h-[500px] sm:w-[700px] w-full msm:max-w-sm " src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
           </div>
 
 
