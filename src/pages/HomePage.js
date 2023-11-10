@@ -66,7 +66,7 @@ const HomePage = () => {
 
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
-          <div className="text-center py-6 bg-blue-gray-500">
+          <div className="text-center py-10 bg-blue-gray-500">
             <h1 className="text-4xl font-bold text-black ">Our Service</h1>
             <div className="py-2">
               <p className="text-lg font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
@@ -559,11 +559,11 @@ const HomePage = () => {
             <div className="text-white ">
               <h1 className=" text-2xl font-bold">Important Links</h1>
               <div className="flex space-x-5  py-5">
-                <i className="fa-brands fa-facebook fa-xl transform hover:scale-110 transition-transform duration-300 "></i>
-                <i class="fa-brands fa-instagram fa-xl transform hover:scale-110 transition-transform duration-300"></i>
-                <i class="fa-brands fa-tiktok fa-xl transform hover:scale-110 transition-transform duration-300"></i>
-                <i class="fa-brands fa-viber fa-xl transform hover:scale-110 transition-transform duration-300"></i>
-                <i class="fa-brands fa-whatsapp fa-xl transform hover:scale-110 transition-transform duration-300"></i>
+                <i className="fa-brands fa-facebook  transform hover:scale-110 transition-transform duration-300 "></i>
+                <i class="fa-brands fa-instagram  transform hover:scale-110 transition-transform duration-300"></i>
+                <i class="fa-brands fa-tiktok  transform hover:scale-110 transition-transform duration-300"></i>
+                <i class="fa-brands fa-viber  transform hover:scale-110 transition-transform duration-300"></i>
+                <i class="fa-brands fa-whatsapp  transform hover:scale-110 transition-transform duration-300"></i>
               </div>
             </div>
             <div >
