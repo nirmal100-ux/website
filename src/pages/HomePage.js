@@ -69,7 +69,7 @@ const HomePage = () => {
           <div className="text-center py-10 bg-blue-gray-500">
             <h1 className="text-4xl font-bold text-black ">Our Service</h1>
             <div className="py-2">
-              <p className="text-lg font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
+              <p className="text-sm font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
             </div>
           </div>
 
@@ -251,7 +251,7 @@ const HomePage = () => {
 
 
 
-          <div className=" py-8">
+          <div className=" py-10">
             <div className="text-center">
               <h1 className="font-bold text-4xl  text-black">PRICING</h1>
             </div>
