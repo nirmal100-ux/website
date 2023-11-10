@@ -11,8 +11,8 @@ const HomePage = () => {
     <div>
       <div className="msm:grid-cols-1 mmd:grid-cols-2" style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
         <div className="flex py-10">
-          <div className="px-36 py-40 ">
-            <h1 className="font-bold  text-5xl text-white">
+          <div className=" sm:px-36 msm:px-5 py-40 ">
+            <h1 className="font-bold  sm:text-5xl text-white s">
               Better Solutions For Your Business
             </h1>
             <div className="py-2">
@@ -24,9 +24,9 @@ const HomePage = () => {
 
 
           </div>
-
-          <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
-
+          <div className="msm:w-[800px] msm:h-[300px]">
+            <img className="h-[500px] w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
+          </div>
 
 
 
@@ -38,7 +38,7 @@ const HomePage = () => {
           <h1 className="text-4xl font-bold py-10 bg-blue-10 text-green-900 ">About Us</h1>
         </div>
 
-        <div className="grid grid-cols-3 py-10 px-8  ">
+        <div className="grid grid-cols-3 py-10 sm:px-8 msm:px-3 msm:grid-cols-1    mmd:grid-cols-2 msm:gap-10 ">
           <div className="col-span-1">
             <Card className="h-[300px] w-[350px]" >
               <h1 className="text-center">Imagine Infotech</h1>
@@ -47,7 +47,7 @@ const HomePage = () => {
           </div>
 
           <div className="col-span-2">
-            <Card className="h-[400px] w-[800px]">
+            <Card className="  h-[400px] w-[800px]  msm:h-[950px] msm:w-[350px]">
 
               <h1 className="text-black space-x-5 py-8 text-justify px-5 ">
                 When it comes to website development, we understand that every business is unique and has its own set of requirements. Therefore, we take a customized approach to website development that is tailored to meet our clients' specific needs. Our team works closely with clients to understand their business, their goals, and their target audience, ensuring that we deliver a website that is not only visually appealing but also functional and user-friendly. At Imagine infotech , we also offer reliable and affordable hosting services to ensure that our clients’ websites are always up and running. Our hosting plans are designed to meet the needs of businesses of all sizes, from small startups to large enterprises. We use the latest technologies and employ stringent security measures to ensure that our clients’ websites are always secure and protected. In addition to website development and hosting, we also offer domain registration services to help businesses establish their online presence. We can help clients register their domain name and manage their domain records, ensuring that their website is easily accessible to their target audience. In conclusion, at imagine infotech, we are passionate about helping businesses succeed online. Whether you need a new website, reliable hosting, or domain registration services, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about our services and how we can help your business grow.
@@ -351,8 +351,8 @@ const HomePage = () => {
           <h1 className="text-base font-bold">Discover our latest blog, packed with insights, trends, and <br /> expert perspectives on the cutting-edge of technology.</h1>
         </div>
 
-        <div className=" grid grid-cols-3 sm:px-20  msm:grid-cols-1 mmd:grid-cols-2 gap-5 msm:px-3 msm:gap-10 ">
-          <div className="">
+        <div className=" grid grid-cols-3 sm:px-20 py-10  msm:grid-cols-1 mmd:grid-cols-2 gap-5 msm:px-3 msm:gap-10  ">
+          <div className="msm:w-[400px]">
             <Card className="h-[400px]  w-[350px] transform hover:scale-110 transition-transform duration-300 ">
               <div>
                 <img src="https://alpharic.com/jufatchi/2023/07/digital-product-design.webp" alt="" />
@@ -403,46 +403,46 @@ const HomePage = () => {
         <div className="py-10">
           <h1 className="text-center font-bold text-4xl text-green-900">Our Clients</h1>
         </div>
-        <div className="grid grid-cols-3  px-10 msm:grid-cols-1 mmd:grid-cols-2 ">
-          <div className="py-4 space-y-5">
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
-            </div>
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
-            </div>
+        <div className="grid grid-cols-3  sm:px-20 msm:grid-cols-1    mmd:grid-cols-2 gap-10 ">
 
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
-            </div>
+          <div className="">
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[350px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
+          </div>
+          <div>
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
           </div>
 
-          <div className=" space-y-14 py-4">
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="	https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370819741_264227149807543_3509917525085752210_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PKxMnbpLr5gAX8p1sSq&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDma4PAWB6nzHpXYiMVhDZHnze-Amcw78Ivt02AMdZCtw&oe=655104B6" alt="" />
-            </div>
-
-            <div>
-              <img className="transform hover:scale-110 transition-transform duration-300 h-[250px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370956152_264226916474233_2435806347277475914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4tLaB3v0lMkAX-NYO7J&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC6z891hvDs1VN0WbKm38pRWYWUpgDmqXb0Ij0LwFWshg&oe=6551BB0B" alt="" />
-            </div>
-            <div>
-              <img className="transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/371777333_264227256474199_3442841441102270307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s_zg0hnnmCkAX8jAn9a&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAYne4jfb4VD3n74ElKN_Ups9Q4DpiaFiTpt-b2fBt63w&oe=6551BD02" alt="" />
-            </div>
-
+          <div>
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
           </div>
 
 
-          <div className="space-y-8 py-4 ">
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370825276_264227176474207_6961604995066564230_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D5OzM7NjXXwAX8zQCvJ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAX29WS1yNgBGXIY31GAP7nmLciUUYLBsTdUEBSsLyetw&oe=65515827" alt="" />
-            </div>
-            <div>
-              <img className=" transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370869183_264227133140878_2489990857417577589_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N-iftg18xHsAX9WC3L4&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCCbzEeyVzJqunqLDiSx58Fp1tjfhunqm7rnN9huafG4Q&oe=6551283B	" alt="" />
-            </div>
-            <div className=" ">
-              <img className="transform hover:scale-110 transition-transform duration-300 h-[300px] w-[300px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
-            </div>
+
+          <div>
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="	https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370819741_264227149807543_3509917525085752210_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PKxMnbpLr5gAX8p1sSq&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDma4PAWB6nzHpXYiMVhDZHnze-Amcw78Ivt02AMdZCtw&oe=655104B6" alt="" />
           </div>
+
+          <div>
+            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370956152_264226916474233_2435806347277475914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4tLaB3v0lMkAX-NYO7J&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC6z891hvDs1VN0WbKm38pRWYWUpgDmqXb0Ij0LwFWshg&oe=6551BB0B" alt="" />
+          </div>
+          <div>
+            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/371777333_264227256474199_3442841441102270307_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s_zg0hnnmCkAX8jAn9a&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAYne4jfb4VD3n74ElKN_Ups9Q4DpiaFiTpt-b2fBt63w&oe=6551BD02" alt="" />
+          </div>
+
+
+
+
+
+          <div>
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370825276_264227176474207_6961604995066564230_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D5OzM7NjXXwAX8zQCvJ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAX29WS1yNgBGXIY31GAP7nmLciUUYLBsTdUEBSsLyetw&oe=65515827" alt="" />
+          </div>
+          <div>
+            <img className=" transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370869183_264227133140878_2489990857417577589_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=N-iftg18xHsAX9WC3L4&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCCbzEeyVzJqunqLDiSx58Fp1tjfhunqm7rnN9huafG4Q&oe=6551283B	" alt="" />
+          </div>
+          <div className=" ">
+            <img className="transform hover:scale-110 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
+          </div>
+
 
 
         </div>
@@ -525,16 +525,16 @@ const HomePage = () => {
       {/* footer */}
 
       <div className="bg-gray-900 py-10">
-        <div className="grid grid-cols-5 px-5  py-10 msm:grid-cols-1 mmd:grid-cols-2">
+        <div className="grid grid-cols-5 sm:px-5 msm:px-12 msm:gap-10 py-10 msm:grid-cols-1 mmd:grid-cols-2">
 
           <div>
-            <h1 className="py-1 px-3 text-2xl text-white">Imagine Infotech</h1>
+            <h1 className="py-1 px-3 text-2xl text-white">IMAGINE INFOTECH </h1>
             <h1 className="text-white text-justify">Imagine Infotech is the only IT training <br /> institute in Kathmandu, Nepal <br /> offering paid internships after the <br /> course completion. Carrying more <br /> than 5 years of experience in training <br /> with various courses covering <br /> everything from programming to <br />designing and marketing, our <br /> professional instructor of highly <br /> educated educators is committed to <br /> assisting you in succeeding.</h1>
           </div>
 
 
-          <div className="px-20  text-white space-y-3 text-sm">
-            <h1 className="text-2xl font-bold ">Company</h1>
+          <div className=" sm:px-20  text-white space-y-3 text-sm">
+            <h1 className="text-2xl font-bold ">COMPANY</h1>
             <h1 className="font-bold">About Us</h1>
             <h1 className="font-bold "> Our Service</h1>
             <h1 className="font-bold">Contact Us</h1>
@@ -544,7 +544,7 @@ const HomePage = () => {
 
           <div className="text-white space-y-3 text-sm ">
 
-            <h1 className="px-25 text-2xl font-bold">Contact Us</h1>
+            <h1 className=" sm:px-25 text-2xl font-bold">CONTACT US</h1>
 
             <h1>IMAGINE INFOTECH</h1>
             <h1>Kathmandu PutaliSadak</h1>
@@ -555,8 +555,8 @@ const HomePage = () => {
           </div>
 
           <div className="text-white ">
-            <h1 className=" text-2xl font-bold">Important Links</h1>
-            <div className="flex space-x-5  py-5">
+            <h1 className=" text-2xl font-bold">IMPORTANT LINKS</h1>
+            <div className="flex space-x-5  sm:py-5">
               <i className="fa-brands fa-facebook  transform hover:scale-110 transition-transform duration-300 "></i>
               <i class="fa-brands fa-instagram  transform hover:scale-110 transition-transform duration-300"></i>
               <i class="fa-brands fa-tiktok  transform hover:scale-110 transition-transform duration-300"></i>
@@ -565,7 +565,7 @@ const HomePage = () => {
             </div>
           </div>
           <div >
-            <h1 className="text-center text-2xl  font-bold text-white">We Accept</h1>
+            <h1 className="text-center text-2xl  font-bold text-white">WE ACCEPT</h1>
             <div className="flex  gap-4 py-3 ">
               <div className="">
                 <img className="h-[50px] w-[60px]  transform hover:scale-110 transition-transform duration-300" src="https://th.bing.com/th/id/OIP.wPj2u0L9A6vbH9af1DwPhgHaD4?pid=ImgDet&rs=1" alt="" />
