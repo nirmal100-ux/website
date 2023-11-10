@@ -35,7 +35,7 @@ const HomePage = () => {
       </div>
       <div className=" bg-blue-gray-200">
         <div className="bg-blue-gray-300 py-5 text-center">
-          <h1 className="text-4xl font-bold py-3 bg-blue-10 text-cyan-900">About Us</h1>
+          <h1 className="text-4xl font-bold py-1 bg-blue-10 text-green-900 ">About Us</h1>
         </div>
 
         <div className=" grid  grid-cols-3 py-5 px-8 ">
@@ -67,8 +67,8 @@ const HomePage = () => {
         {/* SERVICE */}
         <div className="bg-blue-gray-300">
           <div className="text-center py-14">
-            <h1 className="text-4xl font-bold text-black ">Our Service</h1>
-            <div className="">
+            <h1 className="text-4xl font-bold text-green-900 ">Our Service</h1>
+            <div className="py-1">
               <p className="text-sm font-bold">Discover our comprehensive range of services tailored to <br /> meet your unique needs and drive your business forward.</p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className="h-[350px]  w-[350px] py-2">
+              <Card className="h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/web-dev%20icon.png" alt="" />
                 </div>
@@ -101,7 +101,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className="h-[350px]  w-[350px]">
+              <Card className="h-[350px]  w-[350px] transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] py-2 " src="https://www.imagineinfosys.com/images/news-portal-icon-removebg-preview.png" alt="" />
                 </div>
@@ -112,7 +112,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -124,7 +124,7 @@ const HomePage = () => {
 
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -135,7 +135,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -146,7 +146,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -157,7 +157,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -168,7 +168,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -179,7 +179,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -189,7 +189,7 @@ const HomePage = () => {
               </Card>
             </div>
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -200,7 +200,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-2">
+              <Card className=" h-[350px]  w-[350px] py-2 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -211,7 +211,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-1">
+              <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -222,7 +222,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-1">
+              <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -233,7 +233,7 @@ const HomePage = () => {
             </div>
 
             <div>
-              <Card className=" h-[350px]  w-[350px] py-1">
+              <Card className=" h-[350px]  w-[350px] py-1 transform hover:scale-110 transition-transform duration-300">
                 <div className="flex items-center justify-center">
                   <img className="h-[60px] w-[60px] " src="https://www.imagineinfosys.com/images/team-icon.png" alt="" />
                 </div>
@@ -253,7 +253,7 @@ const HomePage = () => {
 
           <div className=" py-14">
             <div className="text-center">
-              <h1 className="font-bold text-4xl  text-black">PRICING</h1>
+              <h1 className="font-bold text-4xl  text-green-900">PRICING</h1>
             </div>
             <div className="grid grid-cols-3 px-20 py-16 gap-5">
               <div className="">
@@ -347,7 +347,7 @@ const HomePage = () => {
         {/* Our Recent Blog */}
         <div className="py-14">
           <div className="text-center ">
-            <h1 className="text-4xl font-bold">Our Recent Blog</h1>
+            <h1 className="text-4xl font-bold text-green-900">Our Recent Blog</h1>
           </div>
           <div className="text-center py-3">
             <h1 className="text-base font-bold">Discover our latest blog, packed with insights, trends, and <br /> expert perspectives on the cutting-edge of technology.</h1>
@@ -403,7 +403,7 @@ const HomePage = () => {
 
         <div className="bg-white px-20 py-10">
           <div className="py-10">
-            <h1 className="text-center font-bold text-4xl">Our Clients</h1>
+            <h1 className="text-center font-bold text-4xl text-green-900">Our Clients</h1>
           </div>
           <div className="grid grid-cols-3 px-10 ">
             <div className="py-4 space-y-5">
