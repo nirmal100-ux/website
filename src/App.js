@@ -4,9 +4,7 @@ import RootLayOut from './components/RootLayOut'
 import HomePage from './pages/HomePage'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Login from './pages/auths/Login';
-import SignUp from './pages/auths/SignUp';
-import UserRoutes from './components/UserRoutes';
+
 
 const App = () => {
   return (
@@ -19,12 +17,6 @@ const App = () => {
 
 
 
-          <Route element={<UserRoutes />}>
-            <Route path='user/login' element={<Login />} />
-
-            <Route path='user/SignUp' element={<SignUp />} />
-
-          </Route>
 
 
 
