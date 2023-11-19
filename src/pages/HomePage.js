@@ -347,7 +347,7 @@ const HomePage = () => {
         <div className="text-center ">
           <h1 className="text-4xl font-bold text-green-900">Our Recent Blog</h1>
         </div>
-        <div className="text-center py-3">
+        <div className="text-center py-2">
           <h1 className="text-base font-bold">Discover our latest blog, packed with insights, trends, and <br /> expert perspectives on the cutting-edge of technology.</h1>
         </div>
 
