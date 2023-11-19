@@ -45,7 +45,7 @@ const Header = () => {
         }
 
         <button onClick={() => setShow(!show)}>
-          {show ? <i className="fa-solid fa-xmark hidden msm:flex"></i> : <i className="fa-solid fa-bars hidden msm:flex"></i>}
+          {show ? <i className="fa-solid fa-xmark hidden msm:flex space-x-5"></i> : <i className="fa-solid fa-bars hidden msm:flex"></i>}
         </button>
         <nav className="msm:hidden space-x-5 flex items-center  ">
           <NavLink className="font-bold" to=''>About</NavLink>

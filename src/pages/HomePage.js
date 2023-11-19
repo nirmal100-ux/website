@@ -1,8 +1,7 @@
 import {
-  Button,
+
   Card,
-  CardBody,
-  Typography,
+
 
 } from "@material-tailwind/react";
 
@@ -42,7 +41,7 @@ const HomePage = () => {
           <div className="col-span-1">
             <Card className="h-[300px] w-[350px]" >
               <h1 className="text-center">Imagine Infotech</h1>
-              <p className="text-center py-5">magine Infotech is a leading IT company based in Kathmandu that specializes in website development, hosting, and domain registration services. Our team of experienced and skilled developers is committed to delivering top-notch services that exceed our clients' expectations.</p>
+              <p className="text-center py-5">Imagine Infotech is a leading IT company based in Kathmandu that specializes in website development, hosting, and domain registration services. Our team of experienced and skilled developers is committed to delivering top-notch services that exceed our clients' expectations.</p>
             </Card>
           </div>
 
@@ -530,7 +529,7 @@ const HomePage = () => {
 
           <div>
             <h1 className="py-1 px-3 text-2xl text-white">IMAGINE INFOTECH </h1>
-            <h1 className="text-white text-justify">Imagine Infotech is the only IT training <br /> institute in Kathmandu, Nepal <br /> offering paid internships after the <br /> course completion. Carrying more <br /> than 5 years of experience in training <br /> with various courses covering <br /> everything from programming to <br />designing and marketing, our <br /> professional instructor of highly <br /> educated educators is committed to <br /> assisting you in succeeding.</h1>
+            <h1 className="text-white text-justify">Imagine Infotech is the only IT training  institute in Kathmandu, Nepal offering paid internships after the course completion. Carrying more than 5 years of experience in training  with various courses covering  everything from programming to designing and marketing, our professional instructor of highly  educated educators is committed to  assisting you in succeeding.</h1>
           </div>
 
 
@@ -545,7 +544,7 @@ const HomePage = () => {
 
           <div className="text-white space-y-3 text-sm ">
 
-            <h1 className=" sm:px-25 text-2xl font-bold">CONTACT US</h1>
+            <h1 className=" sm:px-25 text-2xl font-bold  ">CONTACT US</h1>
 
             <h1>IMAGINE INFOTECH</h1>
             <h1>Kathmandu PutaliSadak</h1>
@@ -556,7 +555,7 @@ const HomePage = () => {
           </div>
 
           <div className="text-white ">
-            <h1 className=" text-2xl font-bold">IMPORTANT LINKS</h1>
+            <h1 className=" text-2xl font-bold underline-offset-1">IMPORTANT LINKS</h1>
             <div className="flex space-x-5  sm:py-5">
               <i className="fa-brands fa-facebook  transform hover:scale-105 transition-transform duration-300 "></i>
               <i class="fa-brands fa-instagram  transform hover:scale-105 transition-transform duration-300"></i>
