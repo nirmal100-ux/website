@@ -4,10 +4,12 @@ import {
 
 
 } from "@material-tailwind/react";
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
   return (
     <div>
+      < Navbar />
       <div className="msm:grid-cols-1 mmd:grid-cols-2" style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
         <div className=" sm:flex sm:py-10 msm:py-20">
           <div className=" sm:px-36 msm:px-5 sm:py-40 msm:py-5 ">
