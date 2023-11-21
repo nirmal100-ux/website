@@ -12,7 +12,7 @@ const Navbar = () => {
   ]
   return (
     <nav className="flex items-center justify-between  pt-5">
-      <img src={open ? "./src/assets/icon-close.svg" : "./src/assets/icon-hamburger.svg"} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6" onClick={() => setopen(!open)} />
+      <img src={open ? "https://icon-library.com/images/svg-close-icon/svg-close-icon-13.jpg" : "https://www.logolynx.com/images/logolynx/06/06fee1bb83691b548d7aa0c4b7fa1258.jpeg"} className="md:hidden  fixed right-5 cursor-pointer h-4 z-20 top-6" onClick={() => setopen(!open)} />
       <div className="px-5">
         <img className="h-[100px] w-[100px] msm:h-14 msm:w-25" src="image/g.jpg" alt="" />
         {/* <h1 className="text-3xl  text-green-900">Imagine InfoTech</h1> */}
