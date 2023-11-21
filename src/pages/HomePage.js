@@ -82,7 +82,7 @@ const HomePage = () => {
               <h1 className="text-center font-bold text-2xl text-blue-700">Apps Development</h1>
               <h1 className="text-center text-2xl py-3 "> We deliver native and cross-platform iOS and Android mobile solutions for business and consumer applications to bring your project to market.
               </h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
 
           </div>
@@ -95,7 +95,7 @@ const HomePage = () => {
               <h1 className="text-center font-bold text-2xl text-blue-700">Web Development</h1>
               <h1 className="text-center text-2xl py-3 "> We carry more than just good coding skills. Our experience makes us stand out from other web development.
               </h1>
-              <h1 className="text-center py-12 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-8 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
           <div>
@@ -105,7 +105,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Software Development</h1>
               <h1 className="text-center text-2xl py-3 ">We offer an efficient and effective software development service that manages the software assets with our expert software developers.</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -116,7 +116,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Imagine independent</h1>
               <h1 className="text-center text-2xl  py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -128,7 +128,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Digital Marketing</h1>
               <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -139,7 +139,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Social Branding</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -150,7 +150,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Alibaba Cloud Servers</h1>
               <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -161,7 +161,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Web Hosting</h1>
               <h1 className="text-center text-2xl  py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -172,7 +172,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Domains Registration</h1>
               <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -183,7 +183,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Cloud Shared Hosting</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
           <div>
@@ -193,7 +193,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Reseller Hosting</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -204,7 +204,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Google One Setup</h1>
               <h1 className="text-center text-2xl py-3 ">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -215,7 +215,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">SSL Certificate</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -226,7 +226,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">SEO</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -237,7 +237,7 @@ const HomePage = () => {
               </div>
               <h1 className="text-center font-bold text-2xl text-blue-700">Bulk SMS</h1>
               <h1 className="text-center text-2xl py-3">Give yourself extra options and become better positioned to serve your world and position yourself for what the emerging global economy wants..</h1>
-              <h1 className="text-center py-5 font-bold"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
+              <h1 className="text-center py-5 font-bold  hover:bg-blue-800 hover:text-red-900"> Learn More <i class="fa-solid fa-arrow-right"></i></h1>
             </Card>
           </div>
 
@@ -464,12 +464,12 @@ const HomePage = () => {
 
               <div className="px-6 py-2">
                 <Card className=" h-[200px]  w-[200px]">
-                  <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                  <img className="h-[200px] w-[200px]" src="image/n.jpg" alt="" />
                 </Card>
               </div>
               <div className="text-white text-center">
-                <h1>Ram Shrestha</h1>
-                <p>Senior Developer</p>
+                <h1>Aman Adhikari</h1>
+                <p>Ceo Founder</p>
               </div>
 
             </Card>
@@ -480,12 +480,12 @@ const HomePage = () => {
 
               <div className="px-6 py-2">
                 <Card className="h-[200px]  w-[200px]">
-                  <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                  <img src="image/o.jpg" alt="" />
                 </Card>
               </div>
               <div className="text-white text-center">
-                <h1>Ram Shrestha</h1>
-                <p>Senior Developer</p>
+                <h1>Bishal Pokhrel</h1>
+                <p>Director</p>
               </div>
 
             </Card>
@@ -495,12 +495,12 @@ const HomePage = () => {
 
               <div className="px-6 py-2">
                 <Card className="h-[200px]  w-[200px] ">
-                  <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                  <img className="h-[200px] w-[200px]" src="image/k.jpg" alt="" />
                 </Card>
               </div>
               <div className="text-white text-center">
-                <h1>Ram Shrestha</h1>
-                <p>Senior Developer</p>
+                <h1>Aashish Jung Xettri</h1>
+                <p>Graphic Designer</p>
               </div>
 
             </Card>
@@ -510,12 +510,12 @@ const HomePage = () => {
 
               <div className="px-6 py-2">
                 <Card className="h-[200px]  w-[200px]">
-                  <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                  <img className="h-[200px] w-[200px]" src="image/j.jpg" alt="" />
                 </Card>
               </div>
               <div className="text-white text-center">
-                <h1>Ram Shrestha</h1>
-                <p>Senior Developer</p>
+                <h1>Saroj Raj Shahi</h1>
+                <p>Manager</p>
               </div>
 
             </Card>
