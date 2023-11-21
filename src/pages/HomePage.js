@@ -410,12 +410,10 @@ const HomePage = () => {
           <div className="">
             <img className=" transform hover:scale-105 transition-transform duration-300 h-[350px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370801486_264227273140864_4318610315568245812_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Cnh8hMZYOTMAX8QNxEQ&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCBwzf8LUVorExryKoxtBksZGYv5penfIkF9aAFE6O9cQ&oe=65524ED1" alt="" />
           </div>
-          <div>
-            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
-          </div>
+
 
           <div>
-            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[300px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370776035_264227116474213_322621139820208618_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MT9pGAExDY0AX97C686&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDqVRR-QXQvd-unMk1ACTtGy_-bAdPYjocL8hly4-7GVQ&oe=6551E668" alt="" />
           </div>
 
 
@@ -443,6 +441,10 @@ const HomePage = () => {
           </div>
           <div className=" ">
             <img className="transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370855629_264227189807539_518095679836768057_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Da4dbZkGZ90AX-xerjA&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBh4IeIHIkDWxOE8UOYWyX6PbpEfbvWGECommsftFeVHQ&oe=6550F3F6" alt="" />
+          </div>
+
+          <div>
+            <img className=" transform hover:scale-105 transition-transform duration-300 h-[400px] w-[350px]" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/370840143_264227119807546_7694080363550184812_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=n98oBWy00rYAX_ZX1Q2&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAvrT9s7F7JC9v_5NxIFEEGPpBEiTffoSH_u9TyEv-_ew&oe=65523837" alt="" />
           </div>
 
 
