@@ -5,14 +5,32 @@ import {
 
 } from "@material-tailwind/react";
 import Navbar from "../components/Navbar";
-
+import { TypeAnimation } from 'react-type-animation';
 const HomePage = () => {
   return (
     <div>
       < Navbar />
       <div className="msm:grid-cols-1 mmd:grid-cols-2" style={{ backgroundImage: `url('https://i.ytimg.com/vi/KDf8n0IJqcs/maxresdefault.jpg')` }}>
-        <div className=" sm:flex sm:py-10 msm:py-20">
-          <div className=" sm:px-36 msm:px-5 sm:py-40 msm:py-5 ">
+        <div className=" text-white text-3xl  font-bold  h-[100vh
+        ] text-center justify-center flex  py-60">
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              'I Am web Developer',
+              2000, // wait 1s before replacing "Mice" with "Hamsters"
+              'I Am Frontend Developer',
+              2000,
+              'I Am Backed developers',
+              2000,
+              'I Am Software Developer',
+              2000
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: '2em', display: 'inline-block' }}
+            repeat={Infinity}
+          />
+          {/* <div className=" sm:px-36 msm:px-5 sm:py-40 msm:py-5 ">
             <h1 className="font-bold  sm:text-5xl text-white msm:text-3xl animate-bounce">
               Better Solutions For Your Business
             </h1>
@@ -24,10 +42,10 @@ const HomePage = () => {
             </div>
 
 
-          </div>
-          <div className="">
+          </div> */}
+          {/* <div className="">
             <img className="sm:h-[500px] sm:w-[700px]" src="https://www.imagineinfosys.com/images/IMG-2262-removebg-preview.png" alt="" />
-          </div>
+          </div> */}
 
 
 
